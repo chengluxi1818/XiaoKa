@@ -7,6 +7,7 @@
 
 	<link rel="stylesheet" href="titlestyle.css" />
 	<link rel="stylesheet" href="bodystyle.css" />
+	<link rel="stylesheet" href="button.css" />
 
 	<!-- BigVideo Dependencies -->
 	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
@@ -24,32 +25,35 @@
 </head>
 
 <body>
-	<div class="PageTitle">
-		<div class="PageLogo">
-			<div class="LogoHeader1">小卡</div>
-			<div class="LogoHeader2">属于您的二手车中介</div>
-		</div>
+	<div class="PageBody" style="position:relative width:100% height:100%">
+		<div class="PageTitle">
+			<div class="PageLogo">
+				<div class="LogoHeader1">小卡</div>
+				<div class="LogoHeader2">属于您的二手车中介</div>
+			</div>
 
-		<div class="TitleInfo">
-			<a href="">怎么操作&#x21C2;</a>
-			<a href="">卖个好价钱</a>
-			<a href="">买个好宝贝</a>
-			<a href="">联系我们</a>
-			<a>看文字太慢？</a>
-		</div>
-	</div>
-
-	<div class="PageBody">
-
-		<div class="BodyBackground">
-			<div class="Overlay">This is an overlay</div>
-			<div class="BackgroundContainer">
-				<video autoplay muted class="Video">
-					<source src="bgvideo/street.webm" type="video/webm" />
-				</video>
+			<div class="TitleInfo">
+				<a href="">怎么操作&#x21C2;</a>
+				<a href="">卖个好价钱</a>
+				<a href="">买个好宝贝</a>
+				<a href="">联系我们</a>
+				<a>看文字太慢？</a>
 			</div>
 		</div>
 
+		<div class="PageBackground">
+			<div class="Background">
+				<div class="Overlay">This is an overlay</div>
+				<div class="VideoContainer">
+					<video autoplay muted class="Video">
+						<source src="bgvideo/street.webm" type="video/webm" />
+					</video>
+				</div>
+			</div>
+		</div>
+
+		<a href="#" class="BuyButton">我要买车</a>
+		<a href="#" class="SellButton">我要卖车</a>
 	</div>
 
 	<div class="PageFooter">

@@ -11,13 +11,14 @@
 .PageTitle {
 	position: fixed;
 	margin: auto;
+	top: 3px;
 	left: 0;
 	right: 0;
-	width: 98%;
+	width: 100%;
 	height: 63px;
 	color: white;
 	background: black;
-	opacity: 0.8;
+	opacity: 0.75;
 	z-index: 100;
 }
 
