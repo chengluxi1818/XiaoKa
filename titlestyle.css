@@ -58,17 +58,57 @@
 	font-size: 20px;
 	top: 18px;
 	right: 10px;
-	/*background: yellow;*/
+	/*background: blue;*/
 }
 
 .TitleInfo a {
+	position: relative;
 	display: inline;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-bottom: 4px;
 	text-decoration: none;
 	color: white;
 	font-family: YueYuan;
 	/*font-family: 'Source Sans Pro', Tahoma, Geneva, sans-serif !important;*/
 	font-size: 0.7em;
 	/*background: blue;*/
+}
+
+.TitleInfo a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  margin: auto;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  background: transparent;
+  /*border-bottom: 2px solid #3366FF;*/
+  transition: 0.1s;
+}
+
+.TitleInfo .how:after {
+	border-bottom: 2px solid white;/*#ff000f;*/
+}
+
+.TitleInfo .sell:after {
+	border-bottom: 2px solid #009bff;
+}
+
+.TitleInfo .buy:after {
+	border-bottom: 2px solid #40b173;
+}
+
+.TitleInfo .contact:after {
+	border-bottom: 2px solid white;/*#fb5327;*/
+}
+
+.TitleInfo .chat:after {
+	border-bottom: 2px solid white;/*#ffff33;*/
+}
+
+.TitleInfo a:hover:after {
+  width: 100%;
 }
