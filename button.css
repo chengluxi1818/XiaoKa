@@ -1,8 +1,32 @@
-.BuyButton {
+.Text {
 	position: absolute;
-	bottom: 20%;
-	right: 38%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 460px;
+	top: 260px;
 
+	font-family: Arial;
+	font-size: 35px;
+	text-align: center;
+	color: #f2f2f2;
+	z-index: 60;
+}
+
+.Button {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 330px;
+	top: 350px;
+	overflow: hidden;
+  z-index: 60;
+  /*background: yellow;*/
+}
+
+.BuyButton {
+	float: left;
 	text-align: center;
   font-family: Arial;
 	font-size: 25px;
@@ -13,8 +37,6 @@
   border-radius: 3px;
   -webkit-border-radius: 3;
   -moz-border-radius: 3;
-
-	z-index: 60;
 
   background: #40b173;
   background-image: -webkit-linear-gradient(top, #38b273, #40b173);
@@ -30,23 +52,17 @@
 }
 
 .SellButton {
-	position: absolute;
-
-	bottom: 20%;
-	left: 38%;
-
+	float: right;
 	text-align: center;
   font-family: Arial;
 	font-size: 25px;
-  color: #f2f2f2;	
+  color: #f2f2f2;
   text-decoration: none;
   padding: 10px 20px 10px 20px;
 
   border-radius: 3px;
   -webkit-border-radius: 3;
   -moz-border-radius: 3;	
-
-	z-index: 60;
 
   background: #009bff;
   background-image: -webkit-linear-gradient(top, #009bff, #0095eb);
