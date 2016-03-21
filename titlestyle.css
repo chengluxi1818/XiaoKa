@@ -1,0 +1,73 @@
+@font-face {
+	font-family: HeiGui;
+	src: url("./造字工房映力黑规体.otf");
+}
+
+@font-face {
+	font-family: YueYuan;
+	src: url("./造字工房悦圆.otf");
+}
+
+.PageTitle {
+	position: fixed;
+	margin: auto;
+	left: 0;
+	right: 0;
+	width: 98%;
+	height: 63px;
+	color: white;
+	background: black;
+	opacity: 0.8;
+	z-index: 100;
+}
+
+.PageLogo {
+	position: absolute;
+	font-family: Tahoma;
+	width: 200px;
+	height: 100%;
+	/*background: red;*/
+}
+
+.LogoHeader1 {
+	position: absolute;
+	display: block;
+	top: 10px;
+	left: 10px;
+	width: 80px;
+	font-family: HeiGui;
+	font-size: 2em;
+	/*background: purple;*/
+}
+
+.LogoHeader2 {
+	position: absolute;
+	width: 150px;
+	top: 30px;
+	left: 80px;
+	color: white;
+	font-family: YueYuan;
+	font-weight: bold;
+	font-size: 13px;
+	/*background: yellow;*/
+}
+
+.TitleInfo {
+	position: absolute;
+	font-size: 20px;
+	top: 18px;
+	right: 10px;
+	/*background: yellow;*/
+}
+
+.TitleInfo a {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: white;
+	font-family: YueYuan;
+	/*font-family: 'Source Sans Pro', Tahoma, Geneva, sans-serif !important;*/
+	font-size: 0.7em;
+	/*background: blue;*/
+}
