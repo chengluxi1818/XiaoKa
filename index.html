@@ -26,11 +26,34 @@
 			</div>
 
 			<div class="TitleInfo">
-				<a class="how" href="">怎么操作&#x21C2;</a>
+				<div class="list">
+					<a class="how" href="#">怎么操作&#x21C2;</a>
+					<div class="how-dropdown">
+						<a href="#">使用小卡的流程</a>
+						<a href="#">256项全面检查都有啥</a>
+						<a href="#">属于你的故事</a>
+						<a href="#">做最好的售后</a>
+						<a href="#">关于我们</a>
+					</div>
+				</div>
+
 				<a class="sell" href="">卖个好价钱</a>
 				<a class="buy" href="">买个好宝贝</a>
 				<a class="contact" href="">联系我们</a>
 				<a class="chat">看文字太慢？</a>
+
+				<script>
+					$(document).ready(function() {
+						$('.list').hover(
+							function() {
+								$('.how-dropdown', this).stop().slideDown(200);
+							},
+							function() {
+								$('.how-dropdown', this).stop().slideUp(200);
+							}
+						);
+					});
+				</script>
 			</div>
 
 		</div>
@@ -39,8 +62,10 @@
 			<div class="Background">
 				<div class="Overlay">This is an overlay</div>
 				<div class="VideoContainer">
-					<video autoplay muted class="Video">
+					<video autoplay muted loop class="Video" poster="bgvideo/street.png">
+						<source src="bgvideo/street.mp4" type="video/mp4" />
 						<source src="bgvideo/street.webm" type="video/webm" />
+						<source src="bgvideo/street.ogg" type="video/ogg" />
 					</video>
 				</div>
 			</div>

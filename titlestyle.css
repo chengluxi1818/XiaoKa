@@ -20,11 +20,11 @@
 	background: black;
 	opacity: 0.75;
 	z-index: 100;
+	-webkit-font-smoothing: subpixel-antialiased; /*solve font rendering problem for browsers*/
 }
 
 .PageLogo {
 	position: absolute;
-	font-family: Tahoma;
 	width: 200px;
 	height: 100%;
 	/*background: red;*/
@@ -37,7 +37,7 @@
 	left: 10px;
 	width: 80px;
 	font-family: HeiGui;
-	font-size: 2em;
+	font-size: 32px;
 	/*background: purple;*/
 }
 
@@ -55,15 +55,14 @@
 
 .TitleInfo {
 	position: absolute;
-	font-size: 20px;
+	font-size: 15px;
 	top: 18px;
 	right: 10px;
-	/*background: blue;*/
+	/*background: yellow;*/
 }
 
 .TitleInfo a {
 	position: relative;
-	display: inline;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 4px;
@@ -71,8 +70,13 @@
 	color: white;
 	font-family: YueYuan;
 	/*font-family: 'Source Sans Pro', Tahoma, Geneva, sans-serif !important;*/
-	font-size: 0.7em;
 	/*background: blue;*/
+}
+
+.TitleInfo .list {
+	padding-bottom: 4px;
+	display: inline-block;
+	/*background: red;*/
 }
 
 .TitleInfo a:after {
@@ -92,6 +96,34 @@
 .TitleInfo .how:after {
 	border-bottom: 2px solid white;/*#ff000f;*/
 }
+
+.TitleInfo .how {
+	position: relative;
+	display: inline-block;
+}
+
+.TitleInfo .how-dropdown {
+	display: none;
+	position: absolute;
+	background: black;
+	top: 45px;
+	min-width: 120px;
+	text-align: center;
+	border-radius: 3px;
+	/*box-shadow: ;*/
+}
+
+.TitleInfo .how-dropdown a {
+	color: white;
+	padding: 10px 10px 10px 10px;
+	/*text-decoration: none;*/
+	display: block;
+}
+
+.how-dropdown a:hover {
+	background: #40b173;
+}
+
 
 .TitleInfo .sell:after {
 	border-bottom: 2px solid #009bff;
