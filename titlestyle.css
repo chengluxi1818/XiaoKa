@@ -1,11 +1,25 @@
 @font-face {
 	font-family: HeiGui;
 	src: url("./造字工房映力黑规体.otf");
+	/*src: url("./锐字锐线怒放黑简.ttf") format('truetype');*/
 }
 
 @font-face {
 	font-family: YueYuan;
 	src: url("./造字工房悦圆.otf");
+}
+
+@font-face {
+    font-family: mf_lihei_noncommercial_reguRg;
+    src: url('./webfontkit-20160323-134614/_-_.eot.eot');
+    src: url('./webfontkit-20160323-134614/_-_.eot.eot?#iefix') format('embedded-opentype'),
+         url('./webfontkit-20160323-134614/_-_.eot.woff2') format('woff2'),
+         url('./webfontkit-20160323-134614/_-_.eot.woff') format('woff'),
+         url('./webfontkit-20160323-134614/_-_.eot.ttf') format('truetype'),
+         url('./webfontkit-20160323-134614/_-_.eot.svg#mf_lihei_noncommercial_reguRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 .PageTitle {

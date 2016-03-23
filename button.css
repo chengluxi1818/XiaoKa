@@ -6,7 +6,7 @@
 	width: 460px;
 	top: 260px;
 
-	font-family: Arial;
+	font-family: Helvetica, Tahoma, Arial, Hiragino Sans GB, "冬青黑体", "Microsoft YaHei", "微软雅黑", SimHei, "黑体", sans-serif;
 	font-size: 35px;
 	text-align: center;
 	color: #f2f2f2;
@@ -28,7 +28,7 @@
 .BuyButton {
 	float: right;
 	text-align: center;
-  font-family: Arial;
+  font-family: Helvetica, Tahoma, Arial, Hiragino Sans GB, "冬青黑体", "Microsoft YaHei", "微软雅黑", SimHei, "黑体", sans-serif;
 	font-size: 25px;
   color: #f2f2f2;	
   text-decoration: none;
@@ -54,7 +54,7 @@
 .SellButton {
 	float: left;
 	text-align: center;
-  font-family: Arial;
+  font-family: Helvetica, Tahoma, Arial, Hiragino Sans GB, "冬青黑体", "Microsoft YaHei", "微软雅黑", SimHei, "黑体", sans-serif;
 	font-size: 25px;
   color: #f2f2f2;
   text-decoration: none;
