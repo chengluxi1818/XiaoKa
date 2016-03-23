@@ -18,6 +18,7 @@
 </head>
 
 <body>
+
 	<div class="PageBody" style="position:relative width:100% height:100%">
 		<div class="PageTitle">
 			<div class="PageLogo">
@@ -26,27 +27,32 @@
 			</div>
 
 			<div class="TitleInfo">
-				<div class="list">
-					<a class="how" href="#">怎么操作&#x21C2;</a>
-					<div class="how-dropdown">
-						<a href="#">使用小卡的流程</a>
-						<a href="#">256项全面检查都有啥</a>
-						<a href="#">属于你的故事</a>
-						<a href="#">做最好的售后</a>
-						<a href="#">关于我们</a>
-					</div>
-				</div>
+				<ul>		
+					<li class="list">
+						<a class="how" href="#">怎么操作&#x21C2;</a>
+						<div class="how-dropdown">
+							<a href="#">使用小卡的流程</a>
+							<a href="#">256项全面检查都有啥</a>
+							<a href="#">属于你的故事</a>
+							<a href="#">做最好的售后</a>
+							<a href="#">关于我们</a>
+						</div>
+					</li>
+					<li><a class="sell" href="">卖个好价钱</a></li>
+					<li><a class="buy" href="">买个好宝贝</a></li>
+					<li><a class="contact" href="">联系我们</a></li>
+					<li><a class="chat">看文字太慢？</a></li>
+				</ul>		
 
-				<a class="sell" href="">卖个好价钱</a>
-				<a class="buy" href="">买个好宝贝</a>
-				<a class="contact" href="">联系我们</a>
-				<a class="chat">看文字太慢？</a>
+<!-- 				<div class="list"> -->
+<!-- 				</div> -->
 
 				<script>
 					$(document).ready(function() {
 						$('.list').hover(
 							function() {
 								$('.how-dropdown', this).stop().slideDown(200);
+								$(this).stop();
 							},
 							function() {
 								$('.how-dropdown', this).stop().slideUp(200);
@@ -60,13 +66,19 @@
 
 		<div class="PageBackground">
 			<div class="Background">
-				<div class="Overlay">This is an overlay</div>
+				<div class="Overlay"></div>
 				<div class="VideoContainer">
+					<!--[if !IE]><!--><!-- THIS TARGETS ALL BROWSERS EXCEPT FOR IE -->
 					<video autoplay muted loop class="Video" poster="bgvideo/street.png">
 						<source src="bgvideo/street.mp4" type="video/mp4" />
 						<source src="bgvideo/street.webm" type="video/webm" />
 						<source src="bgvideo/street.ogg" type="video/ogg" />
 					</video>
+					<!--<![endif]--><!--><!-- ENDS TARGET OF ALL BROWSERS EXCEPT IE -->
+
+					<!--[if IE]><!-- THIS TARGETS ONLY IE BROWSERS -->
+					<img class="Image" src="bgvideo/street.png">
+					<![endif]--><!-- ENDS TARGET FOR IE BROWSERS -->
 				</div>
 			</div>
 		</div>
