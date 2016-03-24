@@ -34,8 +34,13 @@
 	width: 100%;
 	height: 100%;
 	background: #000;
-	opacity: 0.4;
 	z-index: 20;
+
+  opacity: 0.4;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";   /* IE 8 */
+  filter: alpha(opacity=40);   /* IE 5-7 */
+  -moz-opacity: 0.4;	/* Netscape */
+  -khtml-opacity: 0.4;	/* Safari 1.x */
 }
 
 .Video {
@@ -49,6 +54,6 @@
 .Image {
 	position: absolute;
 	width: 100%;
-	z-index: 30;
+	z-index: 10;
 	display: block;
 }

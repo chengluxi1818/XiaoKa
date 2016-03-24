@@ -32,9 +32,14 @@
 	height: 63px;
 	color: white;
 	background: black;
-	opacity: 0.75;
 	z-index: 100;
 	-webkit-font-smoothing: subpixel-antialiased; /*solve font rendering problem for browsers*/
+
+	opacity: 0.75;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";   /* IE 8 */
+	filter: alpha(opacity=75);   /* IE 5-7 */
+	-moz-opacity: 0.75;	/* Netscape */
+	-khtml-opacity: 0.75;	/* Safari 1.x */
 }
 
 .PageLogo {

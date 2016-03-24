@@ -1,25 +1,19 @@
-                                               
-         ┌═════════════┐        
-         ║     『 模  板  王 』     ║        
- ╭═══┤                          ├═══╮
- ║      ║ http://www.mobanwang.com ║      ║
- ║      └═════════════┘      ║
- ║       ┊┊☆ ┊┊☆ ┊┊☆ ┊┊☆        ║
- ║       ┊☆┊ ┊☆┊ ┊☆┊ ┊☆┊        ║
- ║       ☆┊☆ ☆┊☆ ☆┊☆ ☆┊☆        ║
- ║       ┆☆ ┆☆ ┆☆ ┆☆        ║
- ║       ┊┊☆ ┊┊☆ ┊┊☆ ┊┊☆        ║
- ║  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  ║
- ║         陪伴您轻松设计漂亮的网页         ║
- ║      ┌═════════════┐      ║
- ╰═══┤韩国风格 欧美风格 日本风格├═══╯
-         └═════════════┘        
-          更多原创模板，尽在 www.mobanwang.com   
 
-          网页设计交流，请访问 bbs.mobanwang.com
+   ___       _ _                ___           _
+  /___\_ __ | (_)_ __   ___    / __\__  _ __ | |_
+ //  // '_ \| | | '_ \ / _ \  / _\/ _ \| '_ \| __|
+/ \_//| | | | | | | | |  __/ / / | (_) | | | | |_
+\___/ |_| |_|_|_|_| |_|\___| \/   \___/|_| |_|\__|
 
-          字体下载：fonts.mobanwang.com
+   ___                          _
+  / __\___  _ ____   _____ _ __| |_ ___ _ __
+ / /  / _ \| '_ \ \ / / _ \ '__| __/ _ \ '__|
+/ /__| (_) | | | \ V /  __/ |  | ||  __/ |
+\____/\___/|_| |_|\_/ \___|_|   \__\___|_|
 
-          网页特效下载：js.mobanwang.com
 
-          PPT模板下载：www.pptair.com
+http://onlinefontconverter.com is created by:
+W盲rting Innovative Solutions - http://warting.se/
+Stefan W盲rting - http://stefan.warting.se/
+Jimmy W盲rting - http://jimmy.warting.se/
+Please contact any of us if you need help with any development!
