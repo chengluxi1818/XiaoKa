@@ -1,0 +1,23 @@
+.TitleInfo .how:hover {
+	border-bottom: 2px solid white;/*#ff000f;*/
+}
+
+.TitleInfo .sell:hover {
+	border-bottom: 2px solid #009bff;
+}
+
+.TitleInfo .buy:hover {
+	border-bottom: 2px solid #40b173;
+}
+
+.TitleInfo .contact:hover {
+	border-bottom: 2px solid white;/*#fb5327;*/
+}
+
+.TitleInfo .chat:hover {
+	border-bottom: 2px solid white;/*#ffff33;*/
+}
+
+.TitleInfo a:hover:hover {
+  width: 100%;
+}
